@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import ListadoCitas from './components/ListadoCitas';
 
 //Redux
 import store from './store';
@@ -13,7 +14,7 @@ function App() {
         <Header />
         <div className="row mt-3">
           <div className="col-md-6"><AgregarCita /></div>
-          <div className="col-md-6">Listado Aqui</div>
+          <div className="col-md-6"><ListadoCitas /></div>
         </div>
 
       </div>
